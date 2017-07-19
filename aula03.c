@@ -9,7 +9,7 @@ typedef struct {
 } Version;
 
 void printVersion(Version *v) {
-    printf("Version %d.%d.%d", v->major, v->minor, v->build);
+    printf("Version %d.%d.%d\n", v->major, v->minor, v->build);
 }
 
 int main() {
