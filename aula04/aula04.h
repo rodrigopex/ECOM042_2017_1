@@ -16,6 +16,7 @@ typedef struct {
 
 void printVersion(Version *v);
 void deviceCreate(Device *dev, uint8_t battery, uint8_t signal);
+Device *deviceCreateP(uint8_t battery, uint8_t signal);
 void deviceSetMaxSignal(uint8_t max);
 
 #endif //AULA04_H

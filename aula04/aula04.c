@@ -15,3 +15,9 @@ void printVersion(Version *v) {
     printf("Version %d.%d.%d\n", v->major, v->minor, v->build);
 }
 
+Device *deviceCreateP(uint8_t battery, uint8_t signal) {
+    Device dev = {.battery=battery, .signal=signal};
+    return &dev;
+}
+
+
